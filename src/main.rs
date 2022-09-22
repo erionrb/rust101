@@ -10,8 +10,11 @@
 // mod functions;
 // mod pointer_ref;
 // mod structs;
-// mod enums; 
-mod cli;
+// mod enums;
+// mod cli;
+// mod casting;
+// mod generic;
+mod borrowing;
 
 fn main() {
     // print::run();
@@ -27,5 +30,8 @@ fn main() {
     // pointer_ref::run();
     // structs::run();
     // enums::run();
-    cli::run();
+    // cli::run();
+    // casting::run();
+    //generic::run();
+    borrowing::run();
 }
