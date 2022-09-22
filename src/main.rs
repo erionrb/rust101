@@ -14,7 +14,7 @@
 // mod cli;
 // mod casting;
 // mod generic;
-mod borrowing;
+mod ownership;
 
 fn main() {
     // print::run();
@@ -33,5 +33,5 @@ fn main() {
     // cli::run();
     // casting::run();
     //generic::run();
-    borrowing::run();
+    ownership::run();
 }
